@@ -41,6 +41,7 @@ By adopting Face Recognition technology supported by AI, challenges in identific
 The first thing you need to do is:
 
 1. Import libraries 
+
 Example:
 
 ```text
@@ -49,6 +50,7 @@ from keras.preprocessing.image import ImageDataGenerator
 This code for image augmentaion
 
 3. Prepare your dataset
+
 Example:
 
  ```text 
