@@ -1,2 +1,1 @@
-# Fitrah-Ramadhan
-Face Recognition using ResNet50
+Project 1: Face Recognition
