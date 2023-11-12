@@ -41,23 +41,25 @@ By adopting Face Recognition technology supported by AI, challenges in identific
 The first thing you need to do is:
 
 1. Import libraries 
-Example:  ```text from keras.preprocessing.image import ImageDataGenerator``` #This code for image augmentaion
+Example:  ```text
+from keras.preprocessing.image import ImageDataGenerator``` #This code for image augmentaion
 
-2. Prepare your dataset
-Example:   ```text from google.colab import drivedrive.mount('/content/drive')
+3. Prepare your dataset
+Example:   ```text 
+google.colab import drivedrive.mount('/content/drive')
             image_path = os.listdir(os.path.join(Data_path, 'Images'))
             list_att =(os.path.join(Data_path, 'list_attribute2.txt'))```text
             df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skiprows=1) #This code for import your data using google drive
 
-3. Split dataset into train,test,and validation
+4. Split dataset into train,test,and validation
 
-4. Preprocess your dataset
+5. Preprocess your dataset
 
-5. Build the model
+6. Build the model
 
-6. Train your model
+7. Train your model
 
-7. Evaluation
+8. Evaluation
 
 
 ## The Result
