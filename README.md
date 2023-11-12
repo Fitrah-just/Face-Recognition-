@@ -21,8 +21,11 @@ Face Recognition is a technology that utilizes algorithms to automatically ident
 ### Benefits of Face Recognition with AI
 
 1.High-Level Security: Face Recognition systems supported by AI provide a high level of security, identifying individuals even in challenging situations.
+
 2.Access Management: The use of this technology in access management to restricted areas or sensitive information helps enhance control and reduce the risk of unauthorized access.
+
 3.Crime Recognition: In law enforcement, this technology can assist in identifying and tracking criminals more efficiently.
+
 4.Identity Management: In a business context, Face Recognition aids in employee identity management, optimizing attendance processes and reducing internal security risks.
 
 ![face](https://github.com/Fitrah-just/Fitrah-Ramadhan/assets/84637046/250574ca-d1bd-430b-aa29-c42f0b705f98)
@@ -47,9 +50,13 @@ Example:   ```text from google.colab import drivedrive.mount('/content/drive')
             df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skiprows=1) #This code for import your data using google drive
 
 3.Split dataset into train,test,and validation
+
 4.Preprocess your dataset
+
 5.Build the model
+
 6.Train your model
+
 7.Evaluation
 
 
@@ -60,6 +67,7 @@ Example:   ```text from google.colab import drivedrive.mount('/content/drive')
 The result from ResNet :
 
 1.This model accuracy is 94%
+
 2.Image prediction result
 
 
