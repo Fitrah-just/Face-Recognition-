@@ -46,19 +46,30 @@ Example:
 ```text
 from keras.preprocessing.image import ImageDataGenerator
 ```
-#This code for image augmentaion
+This code for image augmentaion
 
 3. Prepare your dataset
 Example:
 
-      ```text 
+ ```text 
+       google.colab import drivedrive.mount('/content/drive') #Connect your drive
+ ```
+ 
+ ```text 
+      image_path = os.listdir(os.path.join(Data_path, 'Images')) #Import your images folder from drive
+  ```
 
-            google.colab import drivedrive.mount('/content/drive')
-            image_path = os.listdir(os.path.join(Data_path, 'Images'))
-            list_att =(os.path.join(Data_path, 'list_attribute2.txt'))
-            df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skiprows=1)
-    ```
-#This code for import your data using google drive
+```text 
+      list_att =(os.path.join(Data_path, 'list_attribute2.txt')) #Import your dataset from drive
+```
+
+```text 
+df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skiprows=1) #Read your dataset, in this case i just use 2 cols for target and feature
+```
+
+This code for import your data using google drive, don't forget to create your own folder, 
+and change the ```Images``` folder to your own folder, and the ```list_attribute.txt``` 
+to your dataset
 
 5. Split dataset into train,test,and validation
 
