@@ -70,7 +70,7 @@ df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skipro
 ```
 
 This code for import your data using google drive, don't forget to create your own folder, 
-and change the ```Images``` folder to your own folder, and the ```list_attribute.txt``` 
+and change the ```Images``` folder to your own folder, and the ```list_attribute2.txt``` 
 to your dataset
 
 5. Split dataset into train,test,and validation
