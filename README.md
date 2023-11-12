@@ -37,20 +37,19 @@ By adopting Face Recognition technology supported by AI, challenges in identific
 
 The first thing you need to do is:
 
-```text
 1.Import libraries 
-Example:   from keras.preprocessing.image import ImageDataGenerator #This code for image augmentaion
+Example:  ```text from keras.preprocessing.image import ImageDataGenerator``` #This code for image augmentaion
 2.Prepare your dataset
-Example:    from google.colab import drivedrive.mount('/content/drive')
+Example:   ```text from google.colab import drivedrive.mount('/content/drive')
             image_path = os.listdir(os.path.join(Data_path, 'Images'))
-            list_att =(os.path.join(Data_path, 'list_attribute2.txt'))
+            list_att =(os.path.join(Data_path, 'list_attribute2.txt'))```text
             df = pd.read_csv(list_att, usecols=['image_id','Male'], delimiter=r'\s+', skiprows=1) #This code for import your data using google drive
 3.Split dataset into train,test,and validation
 4.Preprocess your dataset
 5.Build the model
 6.Train your model
 7.Evaluation
-```
+
 
 ## The Result
 
@@ -60,6 +59,8 @@ The result from ResNet :
 
 1.This model accuracy is 94%
 2.Image prediction result
+
+
 ![image](https://github.com/Fitrah-just/Fitrah-Ramadhan/assets/84637046/2328d2b5-784e-4ff5-bec8-2f17a39fd509)
 
 ## following Python libraries installed:
